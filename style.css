@@ -182,15 +182,11 @@ button:hover {
         align-items: center;
     }
 
-    #clients_list * {
-        font-size: 3vw;
-    }
-
     h1 {
-        font-size: 10vw;
+        font-size: 20vw;
     }
 
     h2 {
-        font-size: 5vw;
+        font-size: 10vw;
     }
 }
