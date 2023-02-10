@@ -40,6 +40,16 @@ function typeWriter() {
     }
 }
 
+var password = "schneider2023";
+var x = prompt("Enter in the password "," ");
+if (x.toLowerCase() == password) {
+ alert("thank you");
+ window.location = "good.htm";
+}
+else {
+ window.location = "bad.htm";
+}
+
 /*
 
 var button = document.getElementById('hover');
