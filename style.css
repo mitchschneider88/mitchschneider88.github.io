@@ -189,7 +189,15 @@ button:hover {
         align-items: center;
     }
 
-
+    #clients_list > p {
+        text-align: right;
+        font-size: 2vw;
+    }
+    
+    #clients_list > h3 {
+        text-align: left;
+        font-size: 2vw;
+    }
     
 
 }
