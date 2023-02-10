@@ -10,10 +10,14 @@
         <script language="JavaScript">
             var password; 
             var pass1="schneider23"; 
-            password=prompt('Enter Password',' '); 
+            password=prompt('Enter Password',' ');
+            if (input === null) {
+                return;
+            }
             if (password==pass1)
             {alert('thank you');
-            password=null;}
+             return;
+            }
             else { window.location="http://www.mitchschneider88.github.io"; 
             }
             </script>
