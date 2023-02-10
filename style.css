@@ -183,12 +183,7 @@ button:hover {
         align-items: center;
     }
 
-    p {
-        font-size: 2em;
+    #clients_list * {
+        font-size: 100px !important;
     }
-    h3 {
-        font-size: 2em;
-    }
-    
 }
-
