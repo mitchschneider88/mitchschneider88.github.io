@@ -150,12 +150,6 @@ button:hover {
 
 @media screen and (max-width: 812px) {
 
-    button:hover {
-        background-color: rgb(195, 195, 195);
-        font-size: 1.5vw;
-        font-style: italic;
-    }
-
     .performances{
         display: grid;
         grid-template-columns: auto;
@@ -183,29 +177,12 @@ button:hover {
     
     #clients_list {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         justify-content: center;
         align-content: center;
         align-items: center;
-    }
-
-    #clients_list > p {
-        text-align: right;
         font-size: 10vw;
     }
     
-    #clients_list > h3 {
-        text-align: left;
-        font-size: 10vw;
-    }
-    
-
 }
 
-/* change background color
-
-body.hovered {
-    background: rgb(0, 0, 0);
-}
-
-*/
