@@ -104,7 +104,7 @@ button {
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding: 500px auto auto auto;
+    padding: auto auto auto auto;
 }
 
 
@@ -146,15 +146,55 @@ button:hover {
 
 
 
-/* 
 
-iphone 8 width
 
-@media (max-width: 1125px) {
+@media screen and (max-width: 812px) {
+
+    button:hover {
+        background-color: rgb(195, 195, 195);
+        font-size: 1.5vw;
+        font-style: italic;
+    }
+
+    .performances{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .projects {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .projects2 {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    
+    #clients_list {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+
+    
 
 }
 
-change background color
+/* change background color
 
 body.hovered {
     background: rgb(0, 0, 0);
