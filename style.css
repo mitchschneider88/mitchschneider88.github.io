@@ -90,6 +90,14 @@ button {
     align-items: center;
 }
 
+.performances2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
 .projects {
     display: grid;
     grid-template-columns: auto auto auto auto;
