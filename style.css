@@ -173,13 +173,39 @@ button:hover {
         align-content: center;
         align-items: center;
     }
-    
-    
-    #clients_list {
-        display: grid;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
+
+    h1 {
+        font-size: 12vw;
     }
-    
+
+    .buttons {
+        font-size: 3vw;
+    }
+
+#clients_list {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    }
+
+#clients_list > p {
+    font-size: 3.5vw;
+    text-align: left;
+    padding: 0 auto 0 auto;
+    border: 0 auto 0 auto;
+    margin: 0 0 0 0;
+}
+
+#clients_list > h3 {
+    font-size: 4vw;
+    text-align: left;
+    padding: 0 auto 0 auto;
+    border: 0 auto 0 auto;
+    margin: 0 0 0 0;
+}
+
+
 }
