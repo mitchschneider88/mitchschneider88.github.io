@@ -44,7 +44,7 @@ var password = "schneider2023";
 var x = prompt("Enter in the password "," ");
 if (x.toLowerCase() == password) {
  alert("thank you");
- window.location = "good.htm";
+ window.location = "https://mitchschneider88.github.io/";
 }
 else {
  window.location = "bad.htm";
