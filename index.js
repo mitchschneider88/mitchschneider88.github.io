@@ -40,16 +40,6 @@ function typeWriter() {
     }
 }
 
-var password = "schneider2023";
-var x = prompt("Enter in the password "," ");
-if (x == password) {
- alert("thank you");
- window.location = "https://mitchschneider88.github.io/";
-}
-else {
- window.location = "bad.htm";
-}
-
 /*
 
 var button = document.getElementById('hover');
