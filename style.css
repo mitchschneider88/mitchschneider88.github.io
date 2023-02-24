@@ -133,7 +133,7 @@ button:hover {
     font-style: italic;
 }
 
-#play-pause:hover {
+/* #play-pause:hover {
     cursor: help;
     
 }
@@ -141,7 +141,7 @@ button:hover {
 #play-pause {
     max-width: 50%;
     max-height: auto;
-}
+} */
 
 
 
