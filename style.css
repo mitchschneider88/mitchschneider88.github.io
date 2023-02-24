@@ -100,7 +100,7 @@ button {
 
 .projects2 {
     display: grid;
-    grid-template-columns: 25% 25%;
+    grid-template-columns: auto;
     justify-content: center;
     justify-items: center;
     align-content: center;
