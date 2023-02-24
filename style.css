@@ -90,14 +90,6 @@ button {
     align-items: center;
 }
 
-.performances2{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
 .projects {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -108,11 +100,12 @@ button {
 
 .projects2 {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 25% 25%;
     justify-content: center;
+    justify-items: center;
     align-content: center;
     align-items: center;
-    padding: auto auto auto auto;
+    padding: auto auto;
 }
 
 
@@ -140,17 +133,17 @@ button:hover {
     font-style: italic;
 }
 
-.projects_group {
-    display: none;
+#play-pause:hover {
+    cursor: help;
+    
 }
 
-.performances_group {
-    display: none;
+#play-pause {
+    max-width: 50%;
+    max-height: auto;
 }
 
-.clients_group {
-    display: none;
-}
+
 
 
 

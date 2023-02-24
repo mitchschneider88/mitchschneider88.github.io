@@ -28,17 +28,26 @@ let showClients = () => {
     hideProjects[0].style.display = 'none';
 }
 
-var i = 0;
-var txt = 'Lorem ipsum typing effect!'; /* The text */
-var speed = 10; /* The speed/duration of the effect in milliseconds */
-    
-function typeWriter() {
-    if (i < txt.length) {
-    document.getElementById("clients_list").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
+var track1 = document.getElementById('track1');
+
+var controlBtn = document.getElementById('play-pause');
+
+function playPause() {
+    if (track1.paused) {
+        track1.play();
+        controlBtn.className = "pause";
+    } else { 
+        track1.pause();
+        controlBtn.className = "play";
     }
 }
+
+controlBtn.addEventListener("click", playPause);
+track.addEventListener("ended", function() {
+  controlBtn.className = "play";
+});
+
+
 
 /*
 
@@ -51,6 +60,18 @@ button.onmouseover = function() {
 
 button.onmouseout = function() {
 	body.className = '';
+}
+
+var i = 0;
+var txt = 'Lorem ipsum typing effect!'; /The text /
+var speed = 10; /The speed/duration of the effect in milliseconds /
+    
+function typeWriter() {
+    if (i < txt.length) {
+    document.getElementById("clients_list").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+    }
 }
 
 */
