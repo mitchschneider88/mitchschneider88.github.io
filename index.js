@@ -47,8 +47,6 @@ track.addEventListener("ended", function() {
   controlBtn.className = "play";
 });
 
-
-
 /*
 
 var button = document.getElementById('hover');
