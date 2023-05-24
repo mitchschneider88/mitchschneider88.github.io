@@ -115,6 +115,15 @@ button {
     padding: 1.7vw 0 2vw 0;
 }
 
+.projects3 {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 1.7vw 0 2vw 0;
+}
+
 
 #clients_list {
     display: grid;
