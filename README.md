@@ -1,3 +1,3 @@
 # devportfolio2023
 
-An interactive portfolio
+An interactive portfolio of select music & development work
