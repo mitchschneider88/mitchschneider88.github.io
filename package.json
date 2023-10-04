@@ -1,0 +1,17 @@
+{
+  "name": "devportfolio",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {},
+  "description": "An interactive portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mitchell Schneider",
+  "license": "ISC",
+  "dependencies": {
+    "masonry-layout": "^4.2.2"
+  }
+}
