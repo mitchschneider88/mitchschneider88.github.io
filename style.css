@@ -9,104 +9,165 @@ h1 {
     text-align: center;
     font-family: 'Major Mono Display', serif;
     color: black;
-    font-size: 3vw;
+    font-size: 4vw;
     margin: 0 0 0 0;
     border: 0 0 0 0;
     padding: 0 0 0 0;
+
 }
 
 h2 {
-    font-family: 'Major Mono Display', serif;
-    color: grey;
-    font-size: 1vw;
-    margin-top: 90%;
-}
-
-h2:hover {
-    color: #0078d4;
-}
-
-a {
+    text-align: center;
     color: black;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-.myNav:hover {
-    background-color: rgb(195, 195, 195);
     font-size: 2vw;
-    font-style: italic;
-    font-weight: bold;
+    font-family: 'Major Mono Display';
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    padding: 0 0 0 0;
+
 }
 
-.full-link 
-{
-    /* Make the link a block-level element */
-    display: block;
-    /* Set the link's dimensions to cover the parent */
-    width: 100%;
-    height: 100%;
-}
-
-.bio {
-    margin-top: 10rem;
-  }
-
-.grid-item {
-    margin-left: 2%;
-    margin-bottom: 2%;
-    margin-top: 1%;
-}
-
-.text {
-    font-size: 1vw;
-    font-weight: bold;
-    opacity: 1; 
-    text-align: center;
-}
-
-.photo {
-    transition: opacity 0.3s ease-in-out;
-}
-
-.hidden {
-    display: none;
-}
-
-#description {
+p {
     text-align: left;
-    text-justify: center;
-    animation: fadeIn 0.3s ease-in;
+    color: black;
+    font-size: 1vw;
+    font-family: 'Rubik';
+    margin: 10px 10px 10px 10px;
+    border: 10px 10px 10px 10px;
+    padding:10px 10px 10px 10px;
 }
 
-span {
-    font-size: 0.5vw;
+h3 {
+    text-align: left;
+    color: black;
+    font-size: 1vw;
+    font-family: 'Rubik Mono One';
+    font-weight: normal;
+    margin: 10px 10px 10px 10px;
+    border: 10px 10px 10px 10px;
+    padding:10px 10px 10px 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
+    margin: auto;
+
+}
+
+button {
+    background-color: white;
+    border: none;
+    padding: 25px 0 25px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.buttons {
+    width: 50%;
+    text-align: center;
+    font-size: 1.2vw;
+    color: black;
+    font-family: 'Major Mono Display'
+}
+
+.xcxphotos, .etcphotos, .project_photos {
+    width: 200px;
+    height: auto;
+    padding: 0.5vw;
+    align-items: center;
+}
+
+.special_photo {
+    width: 375px;
+    height: auto;
+    padding: 0.5vw;
+    align-items: center;
+}
+
+.performances{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.projects2 {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 1.7vw 0 2vw 0;
+}
+
+.projects3 {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 1.7vw 0 2vw 0;
 }
 
 
-@keyframes fadeIn {
-    from {
-        opacity: 0; /* Start opacity at 0 (completely transparent) */
-    }
-    to {
-        opacity: 1; /* End opacity at 1 (fully visible) */
-    }
+#clients_list {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
-.grid {
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-right: 3%;
-    margin-left: 3%;
+#clients_list > p {
+    text-align: right;
 }
+
+#clients_list > h3 {
+    text-align: left;
+}
+
+
+button:hover {
+    background-color: rgb(195, 195, 195);
+    font-size: 5vw;
+    font-style: italic;
+}
+
+#play-pause:hover {
+    cursor: help;
+    
+}
+
+#play-pause {
+    max-width: 50%;
+    max-height: auto;
+}
+
+
+
+
+
 
 
 @media screen and (max-width: 812px) {
 
-    .grid-item{
+    .performances{
         display: grid;
         grid-template-columns: auto;
         justify-content: center;
@@ -114,27 +175,54 @@ span {
         align-items: center;
     }
     
+    .projects {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .projects2 {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
     h1 {
-        margin-top: 6%;
-        font-size: 8vw;
+        font-size: 12vw;
     }
 
-    h2 {
-        font-size: 6vw;
-    }
-
-    .myNav {
+    .buttons {
         font-size: 3vw;
     }
 
-    .myNav:hover{
-        background-color: rgb(195, 195, 195);
-        font-style: italic;
-        font-weight: bold;
+#clients_list {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
     }
 
-    span {
-        font-size: 3vw;
-    }
+#clients_list > p {
+    font-size: 3.5vw;
+    text-align: left;
+    padding: 0 auto 0 auto;
+    border: 0 auto 0 auto;
+    margin: 0 0 0 0;
+}
+
+#clients_list > h3 {
+    font-size: 4vw;
+    text-align: left;
+    padding: 0 auto 0 auto;
+    border: 0 auto 0 auto;
+    margin: 0 0 0 0;
+}
+
 
 }

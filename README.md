@@ -1,3 +1,3 @@
-# devportfolio2023
+# resume2023
 
-An interactive portfolio of select music & development work
+An interactive resume for my music career.
